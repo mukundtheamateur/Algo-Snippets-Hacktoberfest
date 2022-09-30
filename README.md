@@ -8,11 +8,6 @@
 
 Celebrating the spirit of Open-Source ! This repo is aimed at people who are new to Open-Source, earn and learn from that experience.
 
-<p align="center">
-  <a href="https://hacktoberfest.digitalocean.com/">
-    <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="Logo">
-  </a>
-</p>
 
 ## What can you do?
 If you know a popular **Data Structure Related** algorithm, that you think can be beneficial for others, fork this repo, add the code and create a PR. **It can be in any Language !!! (Programming ofcourse)**.<br><br>
