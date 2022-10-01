@@ -33,5 +33,5 @@ If you know a popular **Data Structure Related** algorithm, that you think can b
 - Be the sunshine of somebody's learning life and add some definition or theory about the algorithm in your code as comment :heart:
 - If you can, add the link to the video resources where you learnt the algorithm from ! :clapper:
 - Try to add more resources, links or PDF links about your algorithm in the code as comments.
-- **Don't forget that you are AWESOME!!!!!!**
+- **Don't forget that you are AWESOME!!!!!**
 - Hacktoberfest 2022
