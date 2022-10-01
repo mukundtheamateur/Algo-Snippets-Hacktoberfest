@@ -14,25 +14,25 @@ class BinaryTree {
     Node root;
  
     BinaryTree() { root = null; }
-   
-    /* Given a binary tree, print its nodes in preorder*/
-    void printPreorder(Node node)
+ 
+    /* Given a binary tree, print its nodes in inorder*/
+    void printInorder(Node node)
     {
         if (node == null)
             return;
  
-        /* first print data of node */
+        /* first recur on left child */
+        printInorder(node.left);
+ 
+        /* then print the data of node */
         System.out.print(node.key + " ");
  
-        /* then recur on left subtree */
-        printPreorder(node.left);
- 
-        /* now recur on right subtree */
-        printPreorder(node.right);
+        /* now recur on right child */
+        printInorder(node.right);
     }
  
     // Wrappers over above recursive functions
-    void printPreorder() { printPreorder(root); }
+    void printInorder() { printInorder(root); }
  
     // Driver code
     public static void main(String[] args)
@@ -46,7 +46,7 @@ class BinaryTree {
  
           // Function call
         System.out.println(
-            "Preorder traversal of binary tree is ");
-        tree.printPreorder();
+            "\nInorder traversal of binary tree is ");
+        tree.printInorder();
     }
 }
